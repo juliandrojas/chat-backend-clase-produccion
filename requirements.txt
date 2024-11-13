@@ -29,7 +29,7 @@ numpy==1.26.4
 parse==1.19.1
 pillow==10.4.0
 platformdirs==3.11.0
-psycopg2
+psycopg2-binary==2.9.9
 pycparser==2.21
 pyee==8.2.2
 Pygments==2.18.0
