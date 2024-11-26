@@ -7,3 +7,4 @@ sqlparse==0.4.4
 typing_extensions==4.12.2
 tzdata==2023.3
 whitenoise==6.8.2
+pillow==10.4.0
