@@ -9,6 +9,7 @@ class Author(models.Model):
     profile_picture = models.ImageField(
         upload_to='profile_pictures/', blank=True, null=True
     )
+    file_updated = models.FileField(upload_to='files/', blank=True, null=True)
     
 class Message(models.Model):
     author = models.ForeignKey(
